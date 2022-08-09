@@ -1,6 +1,6 @@
 :root {
   --primary-color: #6d06f2;
-  --secondary-color: #5be9b9;
+  --secondary-color: #ff6684;
 }
 body {
   font-family: "Raleway", sans-serif;
@@ -11,8 +11,49 @@ header {
   padding: 100px 0 20px 0;
 }
 
+h1 {
+  font-size: 60px;
+}
+
 a {
   text-decoration: none;
+  color: white;
+}
+a:active {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+h3 {
+  color: white;
+  margin-top: 80px;
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  height: 150px;
+  padding-top: 50px;
+  margin-top: 80px;
+}
+
+i {
+  color: white;
+}
+
+.about-me p {
+  font-size: 20px;
+}
+.slogan {
+  font-size: 40px;
 }
 
 .my-avatar {
@@ -30,14 +71,47 @@ a {
   margin: 20px 0 50px 0;
 }
 
-.contact-links {
+.contact-links,
+.works-links {
   background: var(--secondary-color);
-  color: white;
-  padding: 15px 25px;
-  border: 1px solid #5be9b9;
+
+  padding: 20px 30px;
+  border: 1px solid var(--secondary-color);
   border-radius: 20px;
+  transition: ease-in-out 250ms;
+}
+
+.contact-links:hover,
+.works-links:hover {
+  border: 1px solid var(--secondary-color);
+  background-color: white;
+  color: var(--secondary-color);
 }
 
 .pictures {
   margin-top: 50px;
+}
+
+.social-media {
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  h4,
+  h3 {
+    font-size: 24px;
+  }
+  .about-me p {
+    font-size: 15px;
+  }
+  .slogan {
+    font-size: 24px;
+  }
+
+  .my-avatar {
+    width: 200px;
+  }
 }
