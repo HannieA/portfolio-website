@@ -33,6 +33,8 @@ h4 {
 
 h2 {
   font-size: 40px;
+}
+h2 .my-works {
   color: white;
   margin-top: 50px;
   background-color: var(--primary-color);
