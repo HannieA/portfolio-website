@@ -45,7 +45,6 @@ footer {
   background-color: var(--primary-color);
   height: 150px;
   padding-top: 50px;
-  margin-top: 50px;
 }
 
 i {
@@ -79,8 +78,7 @@ i {
   margin: 20px 0 50px 0;
 }
 
-.contact-links,
-.works-links {
+.button-links {
   background: var(--secondary-color);
   padding: 20px 30px;
   border: 1px solid var(--secondary-color);
@@ -88,8 +86,7 @@ i {
   transition: ease-in-out 250ms;
 }
 
-.contact-links:hover,
-.works-links:hover {
+.button-links:hover {
   border: 1px solid var(--secondary-color);
   background-color: white;
   color: var(--secondary-color);
@@ -101,6 +98,16 @@ i {
 
 .social-media {
   padding: 5px;
+}
+
+.my-photo {
+  width: 300px;
+  border: 1px solid var(--primary-color);
+  border-radius: 300px;
+}
+
+.container {
+  margin-bottom: 100px;
 }
 
 @media (max-width: 768px) {
